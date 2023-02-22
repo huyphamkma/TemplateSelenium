@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="appURL" value="https://rise.fairsketch.com/signin"/>
+    <test verbose="2" preserve-order="true" name="Test 1">
+        <classes>
+            <class name="testcases.ProjectTest">
+                <methods>
+                    <include name="loginTest"/>
+                    <include name="goToProjectPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+<!--    <test name="Test 2" verbose="2" preserve-order="true">-->
+<!--        <classes>-->
+<!--            <class name="testcases.ProjectTest">-->
+<!--                <methods>-->
+<!--                    <include name="loginTest"/>-->
+<!--                    <include name="goToEventsPage"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
