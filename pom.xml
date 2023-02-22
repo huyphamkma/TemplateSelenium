@@ -102,6 +102,16 @@
             <artifactId>aspectjweaver</artifactId>
             <version>1.9.9.1</version>
         </dependency>
+
+        <dependency>
+            <groupId>atu.testrecorder</groupId>
+            <artifactId>ATUTestRecorder</artifactId>
+            <version>2.1</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/libs/ATUTestRecorder_2.1.jar</systemPath>
+        </dependency>
+
+
     </dependencies>
     <build>
         <pluginManagement>

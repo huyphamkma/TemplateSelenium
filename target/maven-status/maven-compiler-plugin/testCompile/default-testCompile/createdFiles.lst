@@ -1,0 +1,5 @@
+pages\DashboardPage.class
+common\BaseSetup.class
+testcases\ProjectTest.class
+common\TestListener.class
+pages\LoginPage.class
